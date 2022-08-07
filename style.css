@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --light-black:#2e2c2caf;
+    --bg-gradient: linear-gradient(
+        to bottom, #dd2476, #ff512f);
+
+        --light-gray: rgba(255,255,255)
+    
+}
+
+h1{
+overflow: hidden;
+font-size: 3rem;
+}
+
+section{
+    box-sizing: border-box;
+}
+
+
+/* header area  */
+
+.nav{
+    z-index: 10;
+    position: sticky;
+    top: 0px;
+    background-color: #dd2476;
+}
+
+
+.top-book{
+    background: var(--bg-gradient);
+    box-sizing: border-box;
+   
+}
+
+header .nav-item{
+    padding: 0px 10px;
+}
+
+.author-h3{
+    letter-spacing: 2.5px;
+}
+
+
+
+/* section 1 start here  */
+
+.s-1_img img{
+    width: 70%;
+    opacity: 0.8;
+    z-index: -2;
+}
+
+.s-1_textarea{
+    position: relative;
+}
+
+
+.s-1_text{
+    background-color: white;
+padding: 30px;
+text-align: justify;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+}
+
+.s-1_text h1{
+    font-size: 2em;
+    text-align: center;
+}
+
+/* card css start here  */
+
+.card{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color: rgb(250, 250, 250);
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 2vh 1vw;
+}
+
+.card-text{
+    font-size: 1rem;
+    color: grey;
+    padding: 2.5rem 2rem;
+}
+
+.price h1{
+    font-size: 4rem;
+    padding: 2.5rem 0.5rem;
+}
+
+.card-btn{
+    padding: 2rem 0.5rem;
+}
+
+
+
+/* card css end here  */
+
+/* sub start here  */
+.sub{
+    height: 40vh;
+    background-color: #cf397d;
+}
+
+.sub-input{
+    max-width: 600px;
+    border: 2px solid #ff512f;
+    border-radius: 25px 0px 0px 0px;
+    padding: 8px 5px;
+}
+
+.sub{
+    border-radius: 15px;
+}
+
+::placeholder{
+text-align: center;
+}
+
+
+
+.sub-btn{
+    border: none;
+    background-color: #ff512f;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 0px 0px 25px 0px;
+    transition: all 0.4s ease-in-out;
+}
+
+.sub-btn:hover{
+    color: black;
+}
+/* sub end here  */
+
+/* footer css here  */
+footer h2{
+    font-weight: 500;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.footer-text{
+    color: #ff512f;
+    font-weight: 400;
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+.footer-color{
+    background-color: rgb(19, 19, 19);
+    border-radius: 10px 10px 0px 0px;
+}
+
+footer p{
+    color: rgb(124, 124, 124);
+    font-size: 0.8rem;
+}
+
+/* footer css end here  */
+
+
